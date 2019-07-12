@@ -1,0 +1,73 @@
+body {
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		 /* Navbar container */
+		.navbarb {
+		  overflow: hidden;
+		  background-color: green;
+		  font-family: Arial;
+		}
+
+		/* Links inside the navbar */
+		.navbarb a {
+		  float: left;
+		  font-size: 16px;
+		  color: yellow;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		/* The dropdown container */
+		.dropdownb {
+		  float: left;
+		  overflow: hidden;
+		}
+
+		/* Dropdown button */
+		.dropdownb .dropbtnb {
+		  font-size: 16px;
+		  border: none;
+		  outline: none;
+		  color: yellow;
+		  padding: 14px 16px;
+		  background-color: inherit; /* Inherint berarti property ini akan mengcopy nilai dari tag induk (Parent) */
+		  font-family: inherit; /* Important for vertical align on mobile phones */
+		  margin: 0; /* Important for vertical align on mobile phones */
+		}
+
+		/* Add a red background color to navbar links on hover */
+		.navbarb a:hover, .dropdownb:hover .dropbtnb {
+		  background-color: black;
+		}
+
+		/* Dropdown content (hidden by default) */
+		.dropdown-contentb {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		/* Links inside the dropdown */
+		.dropdown-contentb a {
+		  float: none;
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		/* Add a grey background color to dropdown links on hover */
+		.dropdown-contentb a:hover {
+		  background-color: #ffcccc;
+		}
+
+		/* Show the dropdown menu on hover */
+		.dropdownb:hover .dropdown-contentb {
+		  display: block;
+		}

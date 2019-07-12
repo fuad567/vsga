@@ -1,0 +1,99 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/fuad.css">
+</head>
+<body>
+	<!-- Menu Navigasi (Navbar) -->
+	<div class="menunav" style="margin:-10px;padding-bottom:10px">
+		<div class="navbarb" style="padding:10px">
+		  <a href="#home">Home</a>
+		  <a href="#news">News</a>
+		  <div class="dropdownb">
+		    <button class="dropbtnb">Dropdown
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="dropdown-contentb">
+		      <a href="#">Link 1</a>
+		      <a href="#">Link 2</a>
+		      <a href="#">Link 3</a>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- Latihan 1 : Radio Button -->
+	<h3>Pilih Jenis Kelamin :</h3>
+	<form>
+		<input type="radio" name="gender" value="laki-laki" checked> Laki-Laki<br />
+		<input type="radio" name="gender" value="perempuan"> Perempuan<br />
+		<input type="radio" name="gender" value="lainnya"> Lainnya<br /><br />
+		<input type="submit" value="Submit">
+	</form>
+
+	<hr />
+
+	<h3>Pilih Jurusan SMK :</h3>
+	<form action="jurusan" method="post">
+		<input type="radio" name="jurusan" value="tkj">Teknik Komputer Jaringan<br />
+		<input type="radio" name="jurusan" value="rpl">Rekayasa Perangkat Lunak<br />
+		<input type="radio" name="jurusan" value="mm">Multimedia<br />
+		<input type="radio" name="jurusan" value="tja">Teknik Jaringan Akses<br /><br />
+		<input type="submit" value="Kirim">
+	</form>
+
+	<!-- Latihan 2 : Button Choice | Notes : input type Button bisa untuk onclick()-->
+	<h3>Pilih Makanan</h3>
+	<form>
+		<input type="button" value="Nasi Goreng"><br />
+		<input type="button" value="Mie Ayam"><br />
+		<input type="button" value="Bakso"><br />
+		<input type="button" value="Soto Ayam"><br /><br />
+		<input type="submit" value="Submit">
+	</form>
+	
+	<hr />
+
+	<!-- Latihan 3 : Check Box -->
+	<h3>Kendaraan apa yang anda miliki?</h3>
+	<form>
+		<input type="checkbox" value="Mobil">Mobil<br />
+		<input type="checkbox" value="Motor" checked>Motor<br />
+		<input type="checkbox" value="Sepeda">Sepeda<br />
+		<input type="checkbox" value="Pesawat">Pesawat<br /><br />
+		<input type="submit" value="Submit">
+	</form>
+
+	<h3>Pilih Hewan</h3>
+	<form>
+		<input type="checkbox" name="hewan1" value="Kucing">Kucing<br />
+		<input type="checkbox" name="hewan2" value="Burung">Burung<br />
+		<input type="checkbox" name="hewan3" value="Ikan">Ikan<br /><br />
+		<input type="submit" value="Pilih">
+	</form>
+
+	<hr />
+
+	<!-- Latihan 4 : Combo Box -->
+	<h3>Kendaraan apa yang anda miliki?</h3>
+	<form>
+		<select>
+			<option value="Pesawat">Pesawat</option>
+			<option value="Mobil">Mobil</option>
+			<option value="Motor">Motor</option>
+			<option value="Sepeda">Sepeda</option>
+		</select>
+		<br /><br />
+		<input type="submit" value="Submit">
+	</form>
+
+	<h3>Pilih Jenis Layanan</h3>
+	<form>
+		<select>
+			<option value="Pembuatan SIM Baru">Pembuatan SIM Baru</option>
+			<option value="Perpanjangan SIM">Perpanjangan SIM</option>
+			<option value="Kehilangan SIM">Kehilangan SIM</option>
+			<option value="Layanan Masyarakat Lainnya">Layanan Masyarakat Lainnya</option>
+		</select>
+	</form>
+</body>
+</html>
